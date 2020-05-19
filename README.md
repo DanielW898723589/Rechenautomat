@@ -1,1 +1,1 @@
-# Rechenautomat
+# Rechenautomat Daniel Wangler
