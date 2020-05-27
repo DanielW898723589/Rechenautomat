@@ -1,0 +1,19 @@
+﻿<Window x:Class="rechenautomat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rechenautomat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="OK"  HorizontalAlignment="Left" Background="Aqua"  Height="76" Margin="655,175,0,0" VerticalAlignment="Top" Width="108"/>
+        <CheckBox Background="BlanchedAlmond" Content="Richtig"  HorizontalAlignment="Left" Margin="655,85,0,0" VerticalAlignment="Top" Height="40
+                  " RenderTransformOrigin="1.193,1.297" Width="108"/>
+        <TextBlock HorizontalAlignment="Left" Margin="306,10,0,0" Background="Green" TextWrapping="Wrap" Text="Rechenautomat" VerticalAlignment="Top" Height="66" Width="171" FontSize="24"/>
+        <TextBox Background="Violet" HorizontalAlignment="Left" Height="36" Margin="70,147,0,0" TextWrapping="Wrap" Text="Rechenvorgang..." FontSize="20"
+                  VerticalAlignment="Top" Width="155" TextChanged="TextBox_TextChanged"/>
+
+
+    </Grid>
+</Window>
